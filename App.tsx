@@ -4,6 +4,7 @@ import React from 'react';
 import Flatbox from './components/Flatbox';
 import Elevated from './components/Elevated';
 import FancyCard from './components/FancyCard';
+import ActionCard from './components/ActionCard';
 
 export default function App() {
 // const isDark = useColorScheme() === 'dark';
@@ -15,6 +16,7 @@ export default function App() {
           <Flatbox/>
           <Elevated/>
           <FancyCard/>
+          <ActionCard/>
         </View>
       </ScrollView>
     </SafeAreaView>
